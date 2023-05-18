@@ -9,6 +9,9 @@ const productSchema = mongoose.Schema({
     quantity:{
         type:Number,
         require:true
+    },
+    amount:{
+        type:Number
     }
 });
 
